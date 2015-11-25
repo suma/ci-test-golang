@@ -1,12 +1,8 @@
-package ci_test
+package citest
 
 import (
 	"testing"
 )
-
-func returnString() string {
-	return "abc"
-}
 
 func TestReturnString(t *testing.T) {
 	if returnString() != "ABC" {
