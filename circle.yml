@@ -1,7 +1,6 @@
 machine:
-  machine:
-    timezone:
-      Asia/Tokyo
+  timezone:
+    Asia/Tokyo
   pre:
     - go version
 test:
