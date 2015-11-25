@@ -1,0 +1,9 @@
+machine:
+  machine:
+    timezone:
+      Asia/Tokyo
+  pre:
+    - go version
+test:
+  post:
+    - go test
