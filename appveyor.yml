@@ -8,7 +8,8 @@ environment:
   GOPATH: c:\gopath
 
 install:
-  - set PATH=C:\mingw64\bin;%PATH%
+    - dir C:\MinGW
+  - set PATH=C:\MinGW\bin;%PATH%
   - echo %PATH%
   - echo %GOPATH%
   - git submodule update --init --recursive
