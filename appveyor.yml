@@ -8,7 +8,6 @@ environment:
   GOPATH: c:\gopath
 
 install:
-  - dir C:\msys64\mingw64
   - set PATH=C:\msys64\mingw64\bin;%PATH%
   - echo %PATH%
   - echo %GOPATH%
