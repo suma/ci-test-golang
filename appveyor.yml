@@ -8,7 +8,7 @@ environment:
   GOPATH: c:\gopath
 
 install:
-    - dir C:\MinGW
+  - dir C:\MinGW
   - set PATH=C:\MinGW\bin;%PATH%
   - echo %PATH%
   - echo %GOPATH%
