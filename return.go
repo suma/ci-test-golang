@@ -1,9 +1,13 @@
 package citest
 
 /*
+#include "Python.h"
 int funcInt() {
   return 100;
 }
+*/
+/*
+#cgo pkg-config: python-2.7
 */
 import "C"
 
