@@ -6,6 +6,7 @@ notifications:
 
 before_install:
   - go version
+  - go get -u github.com/golang/lint/golint
 
 install:
   - go get -t -d -v ./...
@@ -13,3 +14,4 @@ install:
 
 script:
   - go test -v -race ./...
+  - check_golint.sh
