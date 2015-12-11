@@ -18,4 +18,4 @@ install:
 
 build_script:
   - go test -v -race ./...
-  - check_golint.sh
+  - bash check_golint.sh
