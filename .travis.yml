@@ -14,4 +14,4 @@ install:
 
 script:
   - go test -v -race ./...
-  - check_golint.sh
+  - sh check_golint.sh

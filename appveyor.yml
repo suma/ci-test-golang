@@ -8,6 +8,8 @@ environment:
   GOPATH: c:\gopath
 
 install:
+  - set PATH=%GOROOT%\bin;%PATH%
+  - set PATH=%GOPATH%\bin;%PATH%
   - echo %PATH%
   - echo %GOPATH%
   - git submodule update --init --recursive
